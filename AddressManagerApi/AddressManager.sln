@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressManager.WebApi", "AddressManagerApi\AddressManager.WebApi.csproj", "{8CAF261D-9168-4B31-9B0E-27401BF8369B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressManager", "AddressManager\AddressManager.csproj", "{3384BD2A-1BBD-40B3-83F9-D1C596DA603B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressManager.WebApi.Tests", "AddressManager.WebApi.Tests\AddressManager.WebApi.Tests.csproj", "{06B62CD8-30F3-4E93-94FA-6EC105D79E50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressManager.Data", "AddressManager.Data\AddressManager.Data.csproj", "{736CCC36-E319-4A29-A663-50D0280E6461}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CAF261D-9168-4B31-9B0E-27401BF8369B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CAF261D-9168-4B31-9B0E-27401BF8369B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CAF261D-9168-4B31-9B0E-27401BF8369B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CAF261D-9168-4B31-9B0E-27401BF8369B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3384BD2A-1BBD-40B3-83F9-D1C596DA603B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3384BD2A-1BBD-40B3-83F9-D1C596DA603B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3384BD2A-1BBD-40B3-83F9-D1C596DA603B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3384BD2A-1BBD-40B3-83F9-D1C596DA603B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06B62CD8-30F3-4E93-94FA-6EC105D79E50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06B62CD8-30F3-4E93-94FA-6EC105D79E50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06B62CD8-30F3-4E93-94FA-6EC105D79E50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06B62CD8-30F3-4E93-94FA-6EC105D79E50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{736CCC36-E319-4A29-A663-50D0280E6461}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{736CCC36-E319-4A29-A663-50D0280E6461}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{736CCC36-E319-4A29-A663-50D0280E6461}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{736CCC36-E319-4A29-A663-50D0280E6461}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
